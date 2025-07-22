@@ -1116,6 +1116,9 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
+  '@symbiotejs/symbiote@1.11.7':
+    resolution: {integrity: sha512-fUOJwzuldeApJ533YeTdrfnpp4nsA+ss1eiNBodX7RHf4LnhPB2Z9HP4fF3m2YhKYnxK0whjXaKA+wrxTRP5qA==}
+
   '@tailwindcss/node@4.1.11':
     resolution: {integrity: sha512-yzhzuGRmv5QyU9qLNg4GTlYI6STedBWRE7NjxP45CsFYYq9taI0zJXZBMqIC/c8fViNLhmrbpSFS57EoxUmD6Q==}
 
@@ -1429,6 +1432,29 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@uploadcare/cname-prefix@6.17.0':
+    resolution: {integrity: sha512-UqomH1TtegTmltLhwnKTN4fPNzUlXx6LQZj0YNIkiA726ih+ao6oPS9ER1rvz/XX4e5EOl7/aj+AHHIscLPncQ==}
+
+  '@uploadcare/file-uploader@1.19.3':
+    resolution: {integrity: sha512-51wXUsbAe/9l3Q/wHJyuPaWfFSmE6BYOUdcNgn3BkzUOjK4lyYeERdbLHgp3vtbJvY8znUla+DV4zbFtOkzKgA==}
+
+  '@uploadcare/image-shrink@6.17.0':
+    resolution: {integrity: sha512-9ZIQR2Uad7BeSH0hqo7W/VenHCwnEqRjFpN6SGynTzG6BxoH/HK8NkuMKdJ8URFisW7dZSXpVMZrCL5kf7FfKA==}
+
+  '@uploadcare/react-adapter@0.3.1':
+    resolution: {integrity: sha512-OyGmGkD/u1CSlFZRY+fze/i90B1NDcdQblRn9bgNFY5JdGQMBWfiUGRbw0CKVcKXKkMJY7cuR8qVEzVd1U/UUQ==}
+    peerDependencies:
+      '@types/react': '>= 17.0.0'
+
+  '@uploadcare/react-uploader@1.10.1':
+    resolution: {integrity: sha512-lL2pprzTaWQWXjG7vqGW5Xd9bfNKkvfErrFFBE46SVMXPXu/TjHa6Z1i4cihgvER9JiBeELro+XQHwDQMBnN5w==}
+    peerDependencies:
+      '@types/react': '>= 17.0.0'
+
+  '@uploadcare/upload-client@6.17.0':
+    resolution: {integrity: sha512-ir6xo6HLy3TVn4lVJ+9fOOcq8vvgMmcXoSP/mM+l1CTKKJmd0hzXqNkZ1CYyz7PiRhLPUC6fprmUuA7rnVC87g==}
+    engines: {node: '>=16'}
+
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -1503,6 +1529,9 @@ packages:
   async-function@1.0.0:
     resolution: {integrity: sha512-hsU18Ae8CDTR6Kgu9DYf0EbCr/a5iGL0rytQDobUcdpYOKokk8LEjVphnXkDkgpi0wYVsqrXuP0bZxJaTqdgoA==}
     engines: {node: '>= 0.4'}
+
+  asynckit@0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
   atomic-sleep@1.0.0:
     resolution: {integrity: sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==}
@@ -1647,6 +1676,10 @@ packages:
   colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
 
+  combined-stream@1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
+    engines: {node: '>= 0.8'}
+
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
@@ -1741,6 +1774,10 @@ packages:
   define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
+
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
+    engines: {node: '>=0.4.0'}
 
   dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
@@ -2135,6 +2172,10 @@ packages:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
 
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
+    engines: {node: '>= 6'}
+
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
@@ -2488,6 +2529,10 @@ packages:
     resolution: {integrity: sha512-C3iHfuGUXK2u8/ipq9LfjFfXFxAZMQJJq7vLS45r3D9Y2xQ/m4S8zaR4zMLFWh9AsNPXmcFfUDhTEO8UIC/V6Q==}
     engines: {node: '>=12.0.0'}
 
+  keyux@0.7.2:
+    resolution: {integrity: sha512-Z8ULf9BhSx1hI2rKG2uNjcvMgQmza97ZW2w43phS5VaT4wiTka7tOL4i/GJSc79k65tbvpoTVNCZwam0pqoH6A==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
@@ -2711,6 +2756,14 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
+    engines: {node: '>= 0.6'}
 
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
@@ -4701,6 +4754,8 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
+  '@symbiotejs/symbiote@1.11.7': {}
+
   '@tailwindcss/node@4.1.11':
     dependencies:
       '@ampproject/remapping': 2.3.0
@@ -4998,6 +5053,52 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
+  '@uploadcare/cname-prefix@6.17.0': {}
+
+  '@uploadcare/file-uploader@1.19.3':
+    dependencies:
+      '@symbiotejs/symbiote': 1.11.7
+      '@uploadcare/cname-prefix': 6.17.0
+      '@uploadcare/image-shrink': 6.17.0
+      '@uploadcare/upload-client': 6.17.0
+      keyux: 0.7.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@uploadcare/image-shrink@6.17.0': {}
+
+  '@uploadcare/react-adapter@0.3.1(@types/react@19.1.8)':
+    dependencies:
+      '@types/react': 19.1.8
+
+  '@uploadcare/react-uploader@1.10.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.77.4)':
+    dependencies:
+      '@types/react': 19.1.8
+      '@uploadcare/file-uploader': 1.19.3
+      '@uploadcare/react-adapter': 0.3.1(@types/react@19.1.8)
+    optionalDependencies:
+      next: 15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sass@1.77.4)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@opentelemetry/api'
+      - '@playwright/test'
+      - babel-plugin-macros
+      - babel-plugin-react-compiler
+      - bufferutil
+      - react
+      - react-dom
+      - sass
+      - utf-8-validate
+
+  '@uploadcare/upload-client@6.17.0':
+    dependencies:
+      form-data: 4.0.4
+      ws: 8.18.3
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
       acorn: 8.15.0
@@ -5103,6 +5204,8 @@ snapshots:
   ast-types-flow@0.0.8: {}
 
   async-function@1.0.0: {}
+
+  asynckit@0.4.0: {}
 
   atomic-sleep@1.0.0: {}
 
@@ -5242,6 +5345,10 @@ snapshots:
 
   colorette@2.0.20: {}
 
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
+
   commander@2.20.3: {}
 
   concat-map@0.0.1: {}
@@ -5329,6 +5436,8 @@ snapshots:
       define-data-property: 1.1.4
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
+
+  delayed-stream@1.0.0: {}
 
   dequal@2.0.3: {}
 
@@ -5857,6 +5966,14 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
+  form-data@4.0.4:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.2
+      mime-types: 2.1.35
+
   fraction.js@4.3.7: {}
 
   fsevents@2.3.3:
@@ -6196,6 +6313,8 @@ snapshots:
 
   kareem@2.6.3: {}
 
+  keyux@0.7.2: {}
+
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
@@ -6528,6 +6647,12 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
 
   minimatch@3.1.2:
     dependencies:
