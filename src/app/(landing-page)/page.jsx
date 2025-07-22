@@ -1,5 +1,6 @@
 import Image from "next/image";
-import ProjectSection from "@/components/ProjectSection";
+import ProjectSection from "@/app/(landing-page)/components/ProjectSection";
+import PostsSection from "@/app/(landing-page)/components/PostsSection";
 export default function Home() {
   return (
     <div className="container mx-auto p-8 pb-20 sm:p-20">
@@ -25,6 +26,7 @@ export default function Home() {
           </h1>          
       </div>
       <ProjectSection />
+      <PostsSection />
       </div>
   );
 }

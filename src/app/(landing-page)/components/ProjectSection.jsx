@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import ProjectModal from '@/utils/functions/ProjectModal'
+import ProjectModal from '@/app/(landing-page)/utils/functions/ProjectModal'
 import { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
  const ProjectSection = () => {
