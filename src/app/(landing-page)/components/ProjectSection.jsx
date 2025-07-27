@@ -16,12 +16,12 @@ const projects = React.useMemo(() => [
   },
   {
     id: uuidv4(),
-    url: "/webdisplay/Full_Logo1_V1.png",
-    title: "Project 1",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptates debitis aliquam at repudiandae possimus labore sint architecto omnis accusamus distinctio obcaecati nulla sapiente, doloribus ad voluptate maxime suscipit quia.",
-    fullDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A hic odio sint adipisci est! Quibusdam fugiat excepturi aperiam ratione, debitis voluptate delectus itaque necessitatibus minus nisi vero sequi et sunt.",
-    tech:["JS", "React", "Zustand"],
-    tags: ["Z", "Z", "Z"]
+    url: "/webdisplay/cookbook.png",
+    title: "GFS CookBook",
+    description: "GFS Cookbook is a digital recipe manager that helps users create, view, and manage personal or shared cooking recipes with ease",
+    fullDescription: "Nn interactive web application designed to simplify the way users store, organize, and share cooking recipes. Built with a clean and responsive interface, the platform allows users to create detailed recipe entries, manage ingredients and instructions, and revisit their culinary creations anytime. Whether you're a home cook or part of a collaborative kitchen team, GFS Cookbook serves as your digital cooking companion—streamlining your meal planning and enhancing your cooking experience",
+    tech:["JS", "Zustand", "SCSS","Framer Motion"],
+    tags: ["React JS", "SCSS", "Framer Motion", "Zustand", "JSS","Font Awesome"]
   },
   {
     id: uuidv4(),

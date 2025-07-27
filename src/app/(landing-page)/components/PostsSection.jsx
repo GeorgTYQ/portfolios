@@ -20,7 +20,6 @@ const PostsSection = async () => {
       <div className="flex-1 grid grid-cols-2 gap-12">
         {posts.docs.map((post) => (
           <Link href={`/posts/${post.slug}`} key={post.id} className="group block ">
-                  <p className="text-sm text-slate-400">ID: {post.id}</p>
             <article className="space-y-4">
               <h3 className="text-2xl font-semibold text-light group-hover:text-purple-500 transition-colors">
                 {post.title}
