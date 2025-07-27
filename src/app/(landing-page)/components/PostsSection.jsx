@@ -1,5 +1,6 @@
 import {getPayload} from "@/locales/payload.js"
 import Link from "next/link";
+import { formateDate } from "@/app/(landing-page)/utils/functions/FormatDate.js";
 const PostsSection = async () => {
   const payload = await getPayload();
   const posts = await payload.find({
@@ -36,15 +37,4 @@ const PostsSection = async () => {
   )
 }
 
-function formateDate(timestamp){
-  const date = new Date(timestamp);
-
-  
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-
-}
 export default PostsSection;

@@ -20,7 +20,6 @@ const Page = async ({ params }) => {
   }
 
   let data = post.docs[0];
-  console.log(data);
 
   return (
     <div className="container mx-auto p-8 pb-20 sm:p-20">

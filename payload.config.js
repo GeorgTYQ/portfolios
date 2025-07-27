@@ -3,11 +3,14 @@ import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { buildConfig } from "payload";
 import { Posts } from "./src/app/collections/Posts";
+import { Educations } from "@/app/collections/Education";
+import { SkillsSet } from "@/app/collections/SkillSet";
+import { Experiences } from "@/app/collections/Experience";
 export default buildConfig({
   // If you'd like to use Rich Text, pass your editor here
   editor: lexicalEditor(),
   // Define and configure your collections in this array
-  collections: [Posts],
+  collections: [Posts, Educations, Experiences, SkillsSet],
   // Your Payload secret - should be a complex and secure string, unguessable
   secret: process.env.PAYLOAD_SECRET || "",
   // Whichever Database Adapter you're using should go here

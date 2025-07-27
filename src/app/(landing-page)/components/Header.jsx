@@ -12,16 +12,16 @@ export const Navbar = () => {
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 items-center">
             {/* <li key="about" className='hover:text-slate-200'><Link href="/about">About</Link></li> */}
-            <li key="projects" className="hover:text-slate-200"><Link href="#projects">Projects</Link></li>
-            <li key="blog" className="hover:text-slate-200"><Link href="#blog">Blog</Link></li>
-            <li key="linkedin" className="hover:text-slate-200 flex items-center">
+            <li key="projects" className="hover:border-b-2 hover:border-gray-500 transition duration-300"><Link href="#projects">Projects</Link></li>
+            <li key="blog" className="hover:border-b-2 hover:border-gray-500 transition duration-300"><Link href="#blog">Blog</Link></li>
+            <li key="linkedin" className="hover:border-b-2 hover:border-gray-500 transition duration-300 flex items-center">
               <Link href="https://www.linkedin.com/in/youquantan313" target="_blank" rel="noopener noreferrer">
-                <UilLinkedinAlt className="text-white w-4 h-4 hover:text-slate-200" />
+                <UilLinkedinAlt className="text-white w-4 h-4 hover:border-b-2 hover:border-gray-500 transition duration-300" />
               </Link>
             </li>
             <li key="github" className="hover:text-slate-200 flex items-center">
               <Link href="https://github.com/GeorgTYQ" target="_blank" rel="noopener noreferrer">
-                  <UilGithubAlt className="text-white w-4 h-4 hover:text-slate-200" />
+                  <UilGithubAlt className="text-white w-4 h-4 hover:border-b-2 hover:border-gray-500 transition duration-300" />
               </Link>
             </li>
           </ul>
